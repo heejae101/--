@@ -7,10 +7,11 @@ import Accommodate from './chapter_07/Accommodate';
 import NotificationList from './chapter_06/NotificationList';
 import ConfirmButton from './chapter_08/ConfirmButton';
 import NewConfirmButton from './chapter_08/NewConfirmButton';
+import LandingPage from './chapter_09/LandingPage';
 
 ReactDOM.render(
   <React.StrictMode>
-    <NewConfirmButton />
+    <LandingPage />
   </React.StrictMode>,
   document.getElementById('root')
 );
