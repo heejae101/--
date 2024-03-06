@@ -3,13 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-
 import Accommodate from './chapter_07/Accommodate';
+import NotificationList from './chapter_06/NotificationList';
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <Accommodate />
+    <NotificationList />
   </React.StrictMode>,
   document.getElementById('root')
 );
