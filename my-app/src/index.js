@@ -5,11 +5,12 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Accommodate from './chapter_07/Accommodate';
 import NotificationList from './chapter_06/NotificationList';
-
+import ConfirmButton from './chapter_08/ConfirmButton';
+import NewConfirmButton from './chapter_08/NewConfirmButton';
 
 ReactDOM.render(
   <React.StrictMode>
-    <NotificationList />
+    <NewConfirmButton />
   </React.StrictMode>,
   document.getElementById('root')
 );

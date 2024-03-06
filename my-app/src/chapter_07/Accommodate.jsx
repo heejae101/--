@@ -4,9 +4,11 @@ import useCount from "./useCounter";
 const MAX_CAPACITY = 10;
 
 function Accommodate(props){
+    // isFull이라는 상태와 상태변경할 수 있는 함수 초기값 false 
     const [isFull, setIsFull] = useState(false);
     const [count, increaseCount, decreaseCount] = useCount(0);
 
+    // 랜더링이 끝나고 나서 해야하는 작업들
     useEffect(() => {
         console.log("=======================");
         console.log("useEffect() is called.");
