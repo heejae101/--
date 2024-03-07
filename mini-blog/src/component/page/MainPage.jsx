@@ -23,6 +23,7 @@ const Container = styled.div`
     }
 `;
 
+// 처음 화면 보여주기
 function MainPage(props) {
     const navigate = useNavigate();
 
