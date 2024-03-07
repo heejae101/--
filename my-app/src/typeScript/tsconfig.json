@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        // 자바스크립트 파일을 어디다 놓을껀지 out 
+        "outDir": "TsTransJs",
+        // 어떤 자바스크립트 버전으로할지
+        "target": "es6",
+        // node에서 사용하는거는 commonjs react는 좀 다르다.
+        "module": "commonjs",
+        // 라이브러리 어떤거 사용할 건지 
+        "lib": ["ES6"],
+        "noImplicitAny": true,
+        "strictNullChecks": true
+    }
+}

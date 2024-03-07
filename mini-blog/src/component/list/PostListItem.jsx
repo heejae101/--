@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 
+// styled-components 사용
 const Wrapper = styled.div`
     width: calc(100% - 32px);
     padding: 16px;
