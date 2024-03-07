@@ -16,7 +16,6 @@ const MainTitleText = styled.p`
     text-align: center;
 `;
 
-// 동적으로 변하는 postId 
 function App(props) {
     return (
         <BrowserRouter>
